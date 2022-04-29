@@ -27,7 +27,7 @@ export default function Header() {
                         <Link to="/post">POST</Link>
                     </li>
                     <li>
-                        <a href="/">LOGOUT</a>
+                        <Link to="/write">WRITE</Link>
                         {/* <ul className="sub">
                             <li>
                                 <a href="/">문제 만들기</a>
@@ -45,13 +45,13 @@ export default function Header() {
 
             <div className="member">
                 <span className="ir_so">회원정보 영역</span>
-                <a href="/">
+                <Link to="/mypage">
                     <img
                         src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                         alt="이미지"
                     />
                     네모님 환영합니다.
-                </a>
+                </Link>
             </div>
         </header>
     );

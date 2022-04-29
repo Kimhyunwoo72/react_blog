@@ -1,0 +1,179 @@
+/* board */
+#board-type {
+    font-family: "NexonLv1Gothic";
+}
+.board__search fieldset {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.board__search .search-form {
+    border: 1px solid #c6c6c6;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+.board__search .search-option {
+    border: 1px solid #c6c6c6;
+    padding: 6px 20px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.board__search .search-btn {
+    border: 1px solid #c6c6c6;
+    padding: 7px 20px;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: #fff;
+}
+.board__search .search-btn.black {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    border-color: #000;
+    vertical-align: -4px;
+    padding: 5px 20px;
+}
+.board__search .result {
+    text-align: left;
+    padding-bottom: 10px;
+}
+.board__pages {
+    margin-top: 40px;
+}
+.board__pages ul {
+    display: flex;
+    justify-content: center;
+}
+.board__pages ul li a {
+    display: block;
+    border: 1px solid #eee;
+    padding: 14px 10px;
+    font-size: 14px;
+}
+.board__pages ul li.active a {
+    background-color: #000;
+    color: #fff;
+}
+.board__table table {
+    width: 100%;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+.board__table table th {
+    background-color: #ededed;
+    font-weight: 500;
+}
+.board__table table.hover tr {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.board__table table.hover tr:hover {
+    background-color: #ededed;
+}
+.board__table table th,
+.board__table table td {
+    border-bottom: 1px solid #000;
+    padding: 20px 0;
+    font-size: 14px;
+}
+.board__table table td {
+    vertical-align: top;
+}
+.board__table table .left {
+    text-align: left;
+    padding-left: 20px;
+}
+.board__table table .height {
+    height: 400px;
+    line-height: 1.6;
+}
+.board__btn {
+    float: right;
+    margin-top: 20px;
+}
+.board__btn a,
+.board__btn button {
+    background: #000;
+    padding: 9px 20px;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+.board__modify {
+    text-align: left;
+}
+.board__modify label {
+    display: block;
+    margin-bottom: 5px;
+}
+.board__modify input {
+    width: 100%;
+    background: #ededed;
+    border: 0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.board__modify textarea {
+    width: 100%;
+    height: 400px;
+    background: #ededed;
+    border: 0;
+    padding: 20px;
+    margin-bottom: 20px;
+    resize: none;
+    border-radius: 5px;
+}
+
+/* blog__write */
+.blog__write {
+    text-align: left;
+}
+.blog__write label {
+    display: block;
+    margin-bottom: 5px;
+}
+.blog__write input {
+    width: 100%;
+    background-color: #ededed;
+    border: 0;
+    bottom: 0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.blog__write select {
+    width: 20%;
+    background-color: #ededed;
+    border: 0;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.blog__write textarea {
+    width: 100%;
+    background-color: #ededed;
+    border: 0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    resize: none;
+    height: 400px;
+}
+.blog__write button {
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px 30px;
+    float: right;
+}
+.blogCategory {
+    padding: 10px 30px;
+    background-color: #ededed;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
